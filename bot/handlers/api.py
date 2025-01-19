@@ -5,8 +5,6 @@ from aiogram.types import Message
 
 # Initialize the router
 api = Router()
-gptkey = "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"
-openai.api_key = gptkey
 
 #
 # @api.message(Command(commands=["api"]))
